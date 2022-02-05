@@ -35,10 +35,6 @@ namespace BatchFileRenamer {
 			}
 		}
 
-		private void radioButton1_CheckedChanged(object sender, EventArgs e) {
-
-		}
-
 		private void btnStart_Click(object sender, EventArgs e) {
 
 			int curAction = action;
