@@ -20,7 +20,6 @@ namespace BatchFileRenamer {
 
 		public MainScreen() {
 			InitializeComponent();
-
 			methods = new Methods();
 
 		}
@@ -33,10 +32,6 @@ namespace BatchFileRenamer {
 			if (folderBrowserDialog1.ShowDialog() == DialogResult.OK) {
 				textDir.Text = folderBrowserDialog1.SelectedPath;
 			}
-		}
-
-		private void radioButton1_CheckedChanged(object sender, EventArgs e) {
-
 		}
 
 		private void btnStart_Click(object sender, EventArgs e) {
